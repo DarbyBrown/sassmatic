@@ -30,6 +30,7 @@ html {
   font-size: 7rem;     
   transition: 0.3s color ease-in-out;
   z-index: 10;
+  @include callout;
   
   @include bp(brian) {
     font-size: 15rem;

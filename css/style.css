@@ -77,6 +77,12 @@ html {
   font-size: 7rem;
   transition: 0.3s color ease-in-out;
   z-index: 10;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 @media (min-width: 31.25em) {
   /* line 26, ../sass/style.scss */
@@ -84,12 +90,12 @@ html {
     font-size: 15rem;
   }
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 [class*="arrow-"]:hover {
   color: #bf4d87;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .arrow-left {
   position: absolute;
   left: 1rem;
@@ -97,14 +103,14 @@ html {
   z-index: 10;
 }
 @media (min-width: 31.25em) {
-  /* line 43, ../sass/style.scss */
+  /* line 44, ../sass/style.scss */
   .arrow-left {
     left: 1rem;
     top: 12rem;
   }
 }
 
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .arrow-right {
   position: absolute;
   right: 1rem;
@@ -112,33 +118,33 @@ html {
   z-index: 10;
 }
 @media (min-width: 31.25em) {
-  /* line 54, ../sass/style.scss */
+  /* line 55, ../sass/style.scss */
   .arrow-right {
     right: 1rem;
     top: 12rem;
   }
 }
 
-/* line 65, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .fork {
   -webkit-filter: hue-rotate(-40deg) brightness(105%) saturate(90%);
   z-index: 10;
   width: 12rem;
 }
 @media (min-width: 31.25em) {
-  /* line 65, ../sass/style.scss */
+  /* line 66, ../sass/style.scss */
   .fork {
     width: 14.9rem;
   }
 }
 
-/* line 74, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 header {
   margin: 1rem auto -0.5rem;
   margin-left: 2rem;
   width: 300px;
 }
-/* line 80, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 header h1 {
   color: #444;
   font-family: "Sansita One", cursive;
@@ -152,12 +158,12 @@ header h1 {
   -o-transform: rotate(-14.5deg);
   transform: rotate(-14.5deg);
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 header img {
   width: 160px;
   float: left;
 }
-/* line 94, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 header h2 {
   color: #bf4d87;
   font-size: 1.5rem;
@@ -171,12 +177,12 @@ header h2 {
   -o-transform: rotate(-16deg);
   transform: rotate(-16deg);
 }
-/* line 103, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 header h2 span {
   color: #444;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 h3 {
   color: #444;
   float: left;
@@ -193,7 +199,7 @@ h3 {
   user-select: none;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .polaroid {
   background: #f9f9f9;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
@@ -208,7 +214,7 @@ h3 {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .polaroid:before, .polaroid:after {
   z-index: -1;
   position: absolute;
@@ -222,23 +228,23 @@ h3 {
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
   transform: rotate(-3deg);
 }
-/* line 147, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .polaroid:after {
   transform: rotate(3deg);
   right: 10px;
   left: auto;
 }
-/* line 154, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .polaroid figcaption {
   font-family: "Pacifico", cursive;
   font-size: 3rem;
 }
-/* line 159, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .polaroid img {
   width: 100%;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 article {
   margin: 10px auto;
   max-width: 940px;
@@ -246,7 +252,7 @@ article {
   width: 90%;
 }
 
-/* line 172, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 pre {
   background-color: #1d1f20;
   *zoom: 1;
@@ -266,7 +272,7 @@ pre {
   padding: 1rem;
   text-align: left;
 }
-/* line 186, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 pre h4 {
   background: #bf4d87;
   color: #000;
@@ -274,12 +280,12 @@ pre h4 {
   width: 100%;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .pre1 {
   width: 100%;
 }
 @media (min-width: 60em) {
-  /* line 194, ../sass/style.scss */
+  /* line 195, ../sass/style.scss */
   .pre1 {
     height: 200px;
     height: 20rem;
@@ -287,7 +293,7 @@ pre h4 {
   }
 }
 
-/* line 203, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .pre2 {
   height: 200px;
   height: 20rem;
@@ -295,38 +301,38 @@ pre h4 {
   width: 100%;
 }
 @media (min-width: 60em) {
-  /* line 203, ../sass/style.scss */
+  /* line 204, ../sass/style.scss */
   .pre2 {
     width: 50%;
   }
 }
 
-/* line 213, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .pre3 {
   width: 100%;
 }
 
-/* line 219, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .syn1 {
   color: #bf4d87;
 }
 
-/* line 222, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .syn2 {
   color: #e0aeff;
 }
 
-/* line 225, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .syn3 {
   color: #fffeae;
 }
 
-/* line 228, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .syn4 {
   color: #525252;
 }
 
-/* line 234, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 ul {
   list-style: none;
   margin: 0 auto;
@@ -340,7 +346,7 @@ ul {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 243, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 ul li {
   background: url("http://s.cdpn.io/31787/duck.png");
   background-size: cover;
@@ -357,7 +363,7 @@ ul li {
   width: 100px;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 div {
   border: 1px solid rgba(0, 0, 0, 0.2);
   height: 300px;
@@ -366,7 +372,7 @@ div {
   width: 300px;
 }
 
-/* line 270, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 footer {
   color: #444;
   float: left;
@@ -375,7 +381,7 @@ footer {
   margin-bottom: 2rem;
   width: 100%;
 }
-/* line 278, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 footer a {
   color: #bf4d87;
   font-size: 2.5rem;
@@ -386,18 +392,18 @@ footer a {
 FILTERS
 ========================================= */
 /*Filter 1*/
-/* line 290, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .filter1, #button1 {
   -webkit-filter: none;
 }
 
-/* line 294, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .default:after, .caption1:after {
   content: 'No Filters';
 }
 
 /*Filter 2*/
-/* line 300, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .filter2, #button2 {
   -webkit-filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
   -moz-filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
@@ -423,13 +429,13 @@ FILTERS
   z-index: 4;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 .caption2:after {
   content: 'Washout';
 }
 
 /*Filter 3*/
-/* line 311, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 .filter3, #button3 {
   -webkit-filter: saturate(1.3) brightness(1.1) contrast(1.1);
   -moz-filter: saturate(1.3) brightness(1.1) contrast(1.1);
@@ -439,13 +445,13 @@ FILTERS
   position: relative;
 }
 
-/* line 315, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .caption3:after {
   content: 'Nikki';
 }
 
 /*Filter 4*/
-/* line 321, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .filter4, #button4 {
   -webkit-filter: sepia(40%) brightness(1.4) saturate(0.8);
   -moz-filter: sepia(40%) brightness(1.4) saturate(0.8);
@@ -467,13 +473,13 @@ FILTERS
   z-index: 4;
 }
 
-/* line 326, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .caption4:after {
   content: 'Deadwood';
 }
 
 /*Filter 5*/
-/* line 331, ../sass/style.scss */
+/* line 332, ../sass/style.scss */
 .filter5, #button5 {
   -webkit-filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
   -moz-filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
@@ -499,13 +505,13 @@ FILTERS
   z-index: 4;
 }
 
-/* line 335, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .caption5:after {
   content: 'Sanfran';
 }
 
 /*Filter 6*/
-/* line 340, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 .filter6, #button6 {
   -webkit-filter: grayscale(90%) contrast(1.3);
   -moz-filter: grayscale(90%) contrast(1.3);
@@ -532,13 +538,13 @@ FILTERS
   opacity: 0.7;
 }
 
-/* line 344, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .caption6:after {
   content: 'Noire';
 }
 
 /*Filter 7*/
-/* line 349, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 .filter7, #button7 {
   -webkit-filter: brightness(1.4) contrast(1) saturate(1);
   -moz-filter: brightness(1.4) contrast(1) saturate(1);
@@ -564,13 +570,13 @@ FILTERS
   z-index: 4;
 }
 
-/* line 353, ../sass/style.scss */
+/* line 354, ../sass/style.scss */
 .caption7:after {
   content: 'Neptune';
 }
 
 /*Filter 8*/
-/* line 359, ../sass/style.scss */
+/* line 360, ../sass/style.scss */
 .filter8, #button8 {
   -webkit-filter: contrast(1.3) saturate(1.2) brightness(140%);
   -moz-filter: contrast(1.3) saturate(1.2) brightness(140%);
@@ -597,13 +603,13 @@ FILTERS
   opacity: 0.9;
 }
 
-/* line 363, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 .caption8:after {
   content: 'Lomo';
 }
 
 /*Filter 9*/
-/* line 369, ../sass/style.scss */
+/* line 370, ../sass/style.scss */
 .filter9, #button9 {
   -webkit-filter: sepia(10%) saturate(0.9) brightness(140%);
   -moz-filter: sepia(10%) saturate(0.9) brightness(140%);
@@ -626,13 +632,13 @@ FILTERS
   opacity: 0.6;
 }
 
-/* line 373, ../sass/style.scss */
+/* line 374, ../sass/style.scss */
 .caption9:after {
   content: 'Warming';
 }
 
 /*Filter 10*/
-/* line 379, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
 .filter10, #button10 {
   -webkit-filter: sepia(10%) saturate(0.9) brightness(140%);
   -moz-filter: sepia(10%) saturate(0.9) brightness(140%);
@@ -659,13 +665,13 @@ FILTERS
   z-index: 4;
 }
 
-/* line 383, ../sass/style.scss */
+/* line 384, ../sass/style.scss */
 .caption10:after {
   content: 'Cooling';
 }
 
 /*Filter 11*/
-/* line 389, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .filter11, #button11 {
   -webkit-filter: sepia(15%) contrast(1.7) saturate(0.7);
   -moz-filter: sepia(15%) contrast(1.7) saturate(0.7);
@@ -675,13 +681,13 @@ FILTERS
   position: relative;
 }
 
-/* line 393, ../sass/style.scss */
+/* line 394, ../sass/style.scss */
 .caption11:after {
   content: 'Pro';
 }
 
 /*Filter 12*/
-/* line 399, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .filter12, #button12 {
   -webkit-filter: grayscale(90%) contrast(0.8) brightness(110%);
   -moz-filter: grayscale(90%) contrast(0.8) brightness(110%);
@@ -707,13 +713,13 @@ FILTERS
   z-index: 4;
 }
 
-/* line 403, ../sass/style.scss */
+/* line 404, ../sass/style.scss */
 .caption12:after {
   content: 'Casablanca';
 }
 
 /*Filter 13*/
-/* line 410, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 .filter13, #button13 {
   -webkit-filter: brightness(90%) contrast(1.2);
   -moz-filter: brightness(90%) contrast(1.2);
@@ -741,13 +747,13 @@ FILTERS
   opacity: 0.6;
 }
 
-/* line 414, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .caption13:after {
   content: 'Glassic';
 }
 
 /*Filter 14*/
-/* line 420, ../sass/style.scss */
+/* line 421, ../sass/style.scss */
 .filter14, #button14 {
   -webkit-filter: sepia(100%);
   -moz-filter: sepia(100%);
@@ -780,12 +786,12 @@ FILTERS
   box-shadow: inset 0 0 3rem white;
 }
 
-/* line 426, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 .caption14:after {
   content: 'Custom';
 }
 
-/* line 431, ../sass/style.scss */
+/* line 432, ../sass/style.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -795,7 +801,7 @@ FILTERS
   height: 0;
 }
 
-/* line 440, ../sass/style.scss */
+/* line 441, ../sass/style.scss */
 .clearfix {
   display: inline-block;
 }
