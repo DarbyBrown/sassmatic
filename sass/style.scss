@@ -1,0 +1,443 @@
+@import "compass/css3";
+@import "mixins.scss";
+@import "sassmatic.scss";
+
+$sass-pink: #bf4d87;
+
+html { 
+  background-color: #cccccc;
+  @include filter-gradient(#cccccc, #fff, horizontal);
+  @include background-image(radial-gradient(center, ellipse cover,  #cccccc 0%,#fff 80%));
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+::selection {
+  background: $sass-pink;
+  color: #fff;
+}
+
+
+[class*="entypo-"]{
+  cursor: pointer;
+  
+  &:hover:before {
+      color: $sass-pink;
+    }
+    
+    &:before {
+      color: #444;
+      font-family: 'entypo', sans-serif;
+      font-size: 5rem;
+      position: absolute;
+      transition: 0.3s color ease-in-out;
+      z-index: 10;
+      @include bp(brian) {
+        font-size: 10rem;
+      }
+    }
+}
+
+.entypo-left-open-big {
+  position: absolute;
+  left: 1rem;
+  top: 35.5rem;
+   @include bp(brian) {
+    left:1rem;
+    top: 20rem;
+  }
+}
+
+.entypo-right-open-big {
+  position: absolute;
+  right: 3rem;
+   top: 35.5rem;
+     @include bp(brian) {
+    right:6rem;
+    top: 20rem;
+  }
+}
+
+.fork {
+  -webkit-filter: hue-rotate(-40deg) brightness(105%) saturate(90%);  
+  z-index: 10;
+  width: 12rem;
+  @include bp (brian) {
+    width: 14.9rem;
+  }
+}
+
+header {
+  margin: 1rem auto -0.5rem;
+  margin-left: 2rem;
+  width: 300px;
+  
+  
+  h1 {
+    color: #444;
+    font-family: 'Sansita One', cursive;
+    font-size: 5rem;
+    float: right; 
+    margin-right: 3rem;
+    margin-top: -9.8rem;
+    @include rotate(-14.5deg);
+  }
+  img {
+    width: 160px;
+    float:left;
+  }
+  
+  h2 {
+    color: $sass-pink;
+    font-size: 1.5rem;
+    float:left;
+    font-style: italic;
+    margin: -3.2rem 0 0 1.5rem;
+    padding-bottom: 2px;
+    @include rotate(-16deg);
+    
+    span {
+      color: #444;
+    }
+  }
+}
+
+h3 {
+  color:#444;
+  float: left;
+  font-family: 'Sansita One', cursive;  
+  font-size: 3.5rem;
+  margin: 2rem auto 0.5rem;
+  text-align: center;
+  width: 100%;
+  @include callout;
+}
+
+
+
+.polaroid {
+  background: #f9f9f9;
+  box-shadow: 0 0 2rem rgba(black,0.2);
+  margin: 4rem auto 0;
+  position: relative;
+  padding: 1rem;
+  width: 32rem;
+  @include callout;
+  
+  &:before, &:after 
+    {
+      z-index: -1; 
+      position: absolute; 
+      content: "";
+      bottom: 15px;
+      left: 10px;
+      width: 50%; 
+      top: 80%;
+      max-width:300px;
+      background: rgba(0, 0, 0, 0.7); 
+      box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+      transform: rotate(-3deg);
+    }
+    
+    &:after 
+    {
+      transform: rotate(3deg);
+      right: 10px;
+      left: auto;
+    }
+    
+    
+    figcaption {
+      font-family: 'Pacifico', cursive;
+      font-size: 3rem;
+    } 
+    
+    img {
+      width: 100%;
+    } 
+}
+
+article {
+  margin: 10px auto;
+  max-width: 940px;  
+  position: relative;
+  width:90%;
+}
+
+
+pre {
+  background-color: rgb(29,31,32);
+  @include filter-gradient(#1d1f20, #2f3031, horizontal);
+  @include background-image(linear-gradient(left bottom,  rgba(29,31,32,1) 0%,rgba(47,48,49,1) 100%));
+  color: #ccc; 
+  display: inline-block;
+  float: left;
+  font-size: 17px;
+  font-size: 1.7rem;
+  overflow: auto;
+  padding: 10px;
+  padding: 1rem;
+  text-align: left;
+  
+  h4 {
+    background: $sass-pink;
+    color: #000;
+    margin: 0;
+    width: 100%;  
+  }
+}
+
+.pre1 {
+  width: 100%; 
+  @include bp(lois) {
+    height: 200px;
+    height: 20rem;
+    width: 50%;
+  }
+}
+
+.pre2 {
+  height: 200px;
+  height: 20rem;
+  float: right;
+  width: 100%; 
+  @include bp(lois) {
+    width: 50%;
+  }
+}
+
+.pre3 {
+  width: 100%;
+}
+
+//syntax highlighting colors 
+
+.syn1 {
+  color: $sass-pink;
+}
+.syn2 {
+  color: #e0aeff;
+}
+.syn3 {
+  color: #fffeae;
+}
+.syn4 {
+  color: #525252;
+}
+
+
+
+ul{
+  list-style: none;
+  margin: 0 auto;
+  padding:0;
+  max-width: 940px;  
+  width:90%;
+   @include callout;
+  
+  
+  li {
+    background: url('http://s.cdpn.io/31787/duck.png');
+    background-size: cover; 
+    border: 4px solid white;
+    box-shadow: 0 8px 6px -6px rgba(black,0.6); 
+    color: rgba(white,0.6);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 7rem;
+    height: 100px;
+    line-height: 1.5;
+    padding: 5px;
+    margin: 1.5%;
+    width: 100px;  
+  }
+  
+}
+
+
+div {
+  border: 1px solid rgba(black,0.2);
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+footer {
+  color: #444;
+  float: left;
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  
+  a {
+    color: $sass-pink; 
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
+}
+
+/* =========================================
+FILTERS
+========================================= */
+
+/*Filter 1*/
+.filter1 , #button1{
+  -webkit-filter: none; 
+}
+.default, .caption1 {
+  &:after {
+      content: 'No Filters'; 
+    }
+}
+
+/*Filter 2*/
+.filter2 , #button2 {
+  @include filter-washout;
+}
+
+.caption2 {
+  &:after {
+      content: 'Washout';
+    }
+}
+
+/*Filter 3*/
+.filter3 , #button3 {
+  @include filter-nikki;
+}
+.caption3 {
+  &:after {
+      content: 'Nikki';
+    }
+}
+
+/*Filter 4*/
+.filter4 , #button4 {
+  @include filter-deadwood;
+}
+
+.caption4 {
+  &:after { 
+      content: 'Deadwood';
+    }
+}
+/*Filter 5*/
+.filter5 , #button5 {
+  @include filter-sanfran;
+}
+.caption5 {
+  &:after {
+      content: 'Sanfran';
+    }
+}
+/*Filter 6*/
+.filter6 , #button6 {
+  @include filter-noire;
+}
+.caption6 {
+  &:after {
+      content: 'Noire';
+    }
+}
+/*Filter 7*/
+.filter7, #button7{
+  @include filter-neptune;
+}
+.caption7 {
+  &:after {
+      content: 'Neptune';
+    }
+}
+
+/*Filter 8*/
+.filter8, #button8{
+  @include filter-lomo; 
+}
+.caption8 {
+  &:after {
+      content: 'Lomo';
+    }
+}
+
+/*Filter 9*/
+.filter9, #button9{
+  @include filter-warming; 
+}
+.caption9 {
+  &:after {
+      content: 'Warming';
+    }
+}
+
+/*Filter 10*/
+.filter10, #button10{
+  @include filter-cooling; 
+}
+.caption10 { 
+  &:after {
+      content: 'Cooling';
+    }
+}
+
+/*Filter 11*/
+.filter11, #button11{
+  @include filter-pro; 
+}
+.caption11 {
+  &:after {
+      content: 'Pro';
+    }
+}
+
+/*Filter 12*/
+.filter12, #button12{
+  @include filter-casablanca; 
+}
+.caption12 {
+  &:after {
+      content: 'Casablanca';
+      
+    } 
+}
+
+/*Filter 13*/
+.filter13, #button13{
+  @include filter-glassic; 
+}
+.caption13 { 
+  &:after { 
+      content: 'Glassic';
+    }
+}
+
+/*Filter 14*/
+.filter14, #button14{
+  @include filter-custom(sepia(100%));
+  @include filter-color(#ffb400,0.5); 
+  @include filter-vignette(white, 70%, 90%, 3rem);  
+}  
+.caption14 { 
+  &:after {
+      content: 'Custom';
+    } 
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.clearfix {
+  display: inline-block;
+}

@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Hugo Darby-Brown -- Author -- @darbybrown
+
+# THANKS
+    The Sass Team
+    The Compass Team
+    We Love Icon Fonts
+    Jesse taylor for JS on the demo @Jesse__Taylor
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Sass, Compass
