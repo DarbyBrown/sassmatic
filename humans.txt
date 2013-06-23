@@ -7,7 +7,6 @@
 # THANKS
     The Sass Team
     The Compass Team
-    We Love Icon Fonts
     Jesse taylor for JS on the demo @Jesse__Taylor
 
 # TECHNOLOGY COLOPHON

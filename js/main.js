@@ -13,7 +13,7 @@ var backgrounds = {
  $("figcaption").addClass('caption'+id);
 });
 
-$('.entypo-right-open-big').click(function(){
+$('.arrow-right').click(function(){
  var next;
  current = $('.polaroid div img').attr('src');
  
@@ -31,7 +31,7 @@ $('.entypo-right-open-big').click(function(){
  $('.polaroid div img').attr('src', backgrounds[next]);
 });
                                  
-$('.entypo-left-open-big').click(function(){
+$('.arrow-left').click(function(){
  var last;
  current = $('.polaroid div img').attr('src');
  

@@ -23,43 +23,42 @@ html {
 }
 
 
-[class*="entypo-"]{
+[class*="arrow-"]{
+  color: #444;
   cursor: pointer;
+  font-family: 'Sofia', cursive;
+  font-size: 7rem;     
+  transition: 0.3s color ease-in-out;
+  z-index: 10;
   
-  &:hover:before {
+  @include bp(brian) {
+    font-size: 15rem;
+  }
+  
+  &:hover {
       color: $sass-pink;
-    }
-    
-    &:before {
-      color: #444;
-      font-family: 'entypo', sans-serif;
-      font-size: 5rem;
-      position: absolute;
-      transition: 0.3s color ease-in-out;
-      z-index: 10;
-      @include bp(brian) {
-        font-size: 10rem;
-      }
     }
 }
 
-.entypo-left-open-big {
+.arrow-left {
   position: absolute;
   left: 1rem;
-  top: 35.5rem;
-   @include bp(brian) {
+  top: 32.5rem;
+  z-index: 10;
+  @include bp(brian) {
     left:1rem;
-    top: 20rem;
+    top: 12rem;
   }
 }
 
-.entypo-right-open-big {
+.arrow-right {
   position: absolute;
-  right: 3rem;
-   top: 35.5rem;
-     @include bp(brian) {
-    right:6rem;
-    top: 20rem;
+  right: 1rem;
+  top: 32.5rem;
+  z-index: 10;
+  @include bp(brian) {
+    right:1rem;
+    top: 12rem;
   }
 }
 
