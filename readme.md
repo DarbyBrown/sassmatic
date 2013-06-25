@@ -1,5 +1,5 @@
 
-![Sassmatic Logo](http://sassmatic.com/img/sassmatic.png)
+![Sassmatic Logo](http://sassmatic.com/img/sassmatic.jpg)
 
 
 
