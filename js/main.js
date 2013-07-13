@@ -48,3 +48,9 @@ $('.arrow-left').click(function(){
  $('li').css('background-image', 'url('+backgrounds[last]+')');
  $('.polaroid div img').attr('src', backgrounds[last]);
 });
+
+$(document).ready(function() {
+   $.each(backgrounds, function(index, img){
+    $('<img/>')[0].src = img;
+   });
+});
