@@ -1,6 +1,6 @@
 @import "compass/css3";
 @import "mixins.scss";
-@import "sassmatic.scss";
+@import "_sassmatic.scss";
 
 $sass-pink: #bf4d87;
 
@@ -162,6 +162,10 @@ h3 {
     } 
 }
 
+p {
+  font-size: 1.4em;
+}
+
 article {
   margin: 10px auto;
   max-width: 940px;  
@@ -299,7 +303,7 @@ FILTERS
 
 /*Filter 2*/
 .filter2 , #button2 {
-  @include filter-washout;
+  @extend %filter-washout;
 }
 
 .caption2 {
@@ -310,7 +314,7 @@ FILTERS
 
 /*Filter 3*/
 .filter3 , #button3 {
-  @include filter-nikki;
+  @extend %filter-nikki;
 }
 .caption3 {
   &:after {
@@ -320,7 +324,7 @@ FILTERS
 
 /*Filter 4*/
 .filter4 , #button4 {
-  @include filter-deadwood;
+  @extend %filter-deadwood;
 }
 
 .caption4 {
@@ -330,7 +334,7 @@ FILTERS
 }
 /*Filter 5*/
 .filter5 , #button5 {
-  @include filter-sanfran;
+  @extend %filter-sanfran;
 }
 .caption5 {
   &:after {
@@ -339,7 +343,7 @@ FILTERS
 }
 /*Filter 6*/
 .filter6 , #button6 {
-  @include filter-noire;
+  @extend %filter-noire;
 }
 .caption6 {
   &:after {
@@ -348,7 +352,7 @@ FILTERS
 }
 /*Filter 7*/
 .filter7, #button7{
-  @include filter-neptune;
+  @extend %filter-neptune;
 }
 .caption7 {
   &:after {
@@ -358,7 +362,7 @@ FILTERS
 
 /*Filter 8*/
 .filter8, #button8{
-  @include filter-lomo; 
+  @extend %filter-lomo; 
 }
 .caption8 {
   &:after {
@@ -368,7 +372,7 @@ FILTERS
 
 /*Filter 9*/
 .filter9, #button9{
-  @include filter-warming; 
+  @extend %filter-warming; 
 }
 .caption9 {
   &:after {
@@ -378,7 +382,7 @@ FILTERS
 
 /*Filter 10*/
 .filter10, #button10{
-  @include filter-cooling; 
+  @extend %filter-cooling; 
 }
 .caption10 { 
   &:after {
@@ -388,7 +392,7 @@ FILTERS
 
 /*Filter 11*/
 .filter11, #button11{
-  @include filter-pro; 
+  @extend %filter-pro; 
 }
 .caption11 {
   &:after {
@@ -398,7 +402,7 @@ FILTERS
 
 /*Filter 12*/
 .filter12, #button12{
-  @include filter-casablanca; 
+  @extend %filter-casablanca; 
 }
 .caption12 {
   &:after {
@@ -409,7 +413,7 @@ FILTERS
 
 /*Filter 13*/
 .filter13, #button13{
-  @include filter-glassic; 
+  @extend %filter-glassic; 
 }
 .caption13 { 
   &:after { 

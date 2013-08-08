@@ -1,39 +1,265 @@
 /* =========================================
 Filter Washout 
 ========================================= */
+/* line 17, ../sass/_sassmatic.scss */
+.filter2, #button2 {
+  -webkit-filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
+  position: relative;
+}
+/* line 21, ../sass/_sassmatic.scss */
+.filter2:after, #button2:after {
+  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(40%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0.9)));
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
+  background-image: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
+  background-image: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
 /* =========================================
 Filter Nikki
 ========================================= */
+/* line 31, ../sass/_sassmatic.scss */
+.filter3, #button3 {
+  -webkit-filter: saturate(1.3) brightness(1.1) contrast(1.1);
+  position: relative;
+}
+
 /* =========================================
 Filter Deadwood 
 ========================================= */
+/* line 41, ../sass/_sassmatic.scss */
+.filter4, #button4 {
+  -webkit-filter: sepia(40%) brightness(1.4) saturate(0.8);
+  position: relative;
+}
+/* line 45, ../sass/_sassmatic.scss */
+.filter4:after, #button4:after {
+  background: black;
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
 /* =========================================
 Filter SanFran 
 ========================================= */
+/* line 54, ../sass/_sassmatic.scss */
+.filter5, #button5 {
+  -webkit-filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
+  position: relative;
+}
+/* line 59, ../sass/_sassmatic.scss */
+.filter5:after, #button5:after {
+  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0.5)));
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+  background-image: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+  background-image: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
 /* =========================================
 Filter Noire 
 ========================================= */
+/* line 68, ../sass/_sassmatic.scss */
+.filter6, #button6 {
+  -webkit-filter: grayscale(90%) contrast(1.3);
+  position: relative;
+}
+/* line 72, ../sass/_sassmatic.scss */
+.filter6:after, #button6:after {
+  background-image: -webkit-gradient(radial, 50%, 0, 50%, 90, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(82%, rgba(0, 0, 0, 0.65)), color-stop(83%, rgba(0, 0, 0, 0.69)), color-stop(90%, #000000));
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
+  background-image: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
+  background-image: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  opacity: 0.7;
+}
+
 /* =========================================
 Filter Neptune 
 ========================================= */
+/* line 82, ../sass/_sassmatic.scss */
+.filter7, #button7 {
+  -webkit-filter: brightness(1.4) contrast(1) saturate(1);
+  position: relative;
+}
+/* line 86, ../sass/_sassmatic.scss */
+.filter7:after, #button7:after {
+  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(125, 185, 232, 0)), color-stop(100%, #1e5799));
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  background-image: -o-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  background-image: radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
 /* =========================================
 Filter Lomo 
 ========================================= */
+/* line 95, ../sass/_sassmatic.scss */
+.filter8, #button8 {
+  -webkit-filter: contrast(1.3) saturate(1.2) brightness(140%);
+  position: relative;
+}
+/* line 99, ../sass/_sassmatic.scss */
+.filter8:after, #button8:after {
+  -webkit-filter: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 92%, rgba(0, 0, 0, 0.69) 93%, #000000 100%);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  opacity: 0.9;
+}
+
 /* =========================================
 Filter Warming 
 ========================================= */
+/* line 110, ../sass/_sassmatic.scss */
+.filter9, #button9 {
+  -webkit-filter: sepia(10%) saturate(0.9) brightness(140%);
+  position: relative;
+}
+/* line 114, ../sass/_sassmatic.scss */
+.filter9:after, #button9:after {
+  background-color: rgba(236, 138, 0, 0.2);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  opacity: 0.6;
+}
+
 /* =========================================
 Filter Cooling 
 ========================================= */
+/* line 125, ../sass/_sassmatic.scss */
+.filter10, #button10 {
+  -webkit-filter: sepia(10%) saturate(0.9) brightness(140%);
+  position: relative;
+}
+/* line 129, ../sass/_sassmatic.scss */
+.filter10:after, #button10:after {
+  background-color: rgba(0, 109, 255, 0.35);
+  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(125, 185, 232, 0)), color-stop(100%, #1e5799));
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  background-image: -o-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  background-image: radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
 /* =========================================
 Filter Pro
 ========================================= */
+/* line 139, ../sass/_sassmatic.scss */
+.filter11, #button11 {
+  -webkit-filter: sepia(15%) contrast(1.7) saturate(0.7);
+  position: relative;
+}
+
 /* =========================================
 Filter Casablanca 
 ========================================= */
+/* line 148, ../sass/_sassmatic.scss */
+.filter12, #button12 {
+  -webkit-filter: grayscale(90%) contrast(0.8) brightness(110%);
+  position: relative;
+}
+/* line 152, ../sass/_sassmatic.scss */
+.filter12:after, #button12:after {
+  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0.9)));
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
+  background-image: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
+  background-image: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
 /* =========================================
-Filter unknown 
+Filter Glassic 
 ========================================= */
+/* line 162, ../sass/_sassmatic.scss */
+.filter13, #button13 {
+  -webkit-filter: brightness(90%) contrast(1.2);
+  position: relative;
+}
+/* line 166, ../sass/_sassmatic.scss */
+.filter13:after, #button13:after {
+  background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(244, 244, 244, 0.3)), color-stop(60%, rgba(244, 244, 244, 0.3)), color-stop(60%, rgba(244, 244, 244, 0.7)), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
+  background-image: -moz-linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
+  background-image: -o-linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
+  background-image: linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
+  box-shadow: inset 0px 0px 10rem white;
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  opacity: 0.6;
+}
+
 /* =========================================
 Filter Custom
 ========================================= */
@@ -247,6 +473,11 @@ h3 {
 }
 
 /* line 165, ../sass/style.scss */
+p {
+  font-size: 1.4em;
+}
+
+/* line 169, ../sass/style.scss */
 article {
   margin: 10px auto;
   max-width: 940px;
@@ -254,7 +485,7 @@ article {
   width: 90%;
 }
 
-/* line 173, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 pre {
   background-color: #1d1f20;
   *zoom: 1;
@@ -274,7 +505,7 @@ pre {
   padding: 1rem;
   text-align: left;
 }
-/* line 187, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 pre h4 {
   background: #bf4d87;
   color: #000;
@@ -282,12 +513,12 @@ pre h4 {
   width: 100%;
 }
 
-/* line 195, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .pre1 {
   width: 100%;
 }
 @media (min-width: 60em) {
-  /* line 195, ../sass/style.scss */
+  /* line 199, ../sass/style.scss */
   .pre1 {
     height: 200px;
     height: 20rem;
@@ -295,7 +526,7 @@ pre h4 {
   }
 }
 
-/* line 204, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .pre2 {
   height: 200px;
   height: 20rem;
@@ -303,38 +534,38 @@ pre h4 {
   width: 100%;
 }
 @media (min-width: 60em) {
-  /* line 204, ../sass/style.scss */
+  /* line 208, ../sass/style.scss */
   .pre2 {
     width: 50%;
   }
 }
 
-/* line 214, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .pre3 {
   width: 100%;
 }
 
-/* line 220, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 .syn1 {
   color: #bf4d87;
 }
 
-/* line 223, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .syn2 {
   color: #e0aeff;
 }
 
-/* line 226, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 .syn3 {
   color: #fffeae;
 }
 
-/* line 229, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .syn4 {
   color: #525252;
 }
 
-/* line 235, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 ul {
   list-style: none;
   margin: 0 auto;
@@ -348,7 +579,7 @@ ul {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 244, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 ul li {
   background: url("http://s.cdpn.io/31787/duck.png");
   background-size: cover;
@@ -365,7 +596,7 @@ ul li {
   width: 100px;
 }
 
-/* line 263, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 div {
   border: 1px solid rgba(0, 0, 0, 0.2);
   height: 300px;
@@ -374,7 +605,7 @@ div {
   width: 300px;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 footer {
   color: #444;
   float: left;
@@ -383,7 +614,7 @@ footer {
   margin-bottom: 2rem;
   width: 100%;
 }
-/* line 279, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 footer a {
   color: #bf4d87;
   font-size: 2.5rem;
@@ -394,377 +625,95 @@ footer a {
 FILTERS
 ========================================= */
 /*Filter 1*/
-/* line 291, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .filter1, #button1 {
   -webkit-filter: none;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .default:after, .caption1:after {
   content: 'No Filters';
 }
 
 /*Filter 2*/
-/* line 301, ../sass/style.scss */
-.filter2, #button2 {
-  -webkit-filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
-  -moz-filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
-  -ms-filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
-  -o-filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
-  filter: sepia(10%) saturate(0.8) brightness(1.5) contrast(0.8);
-  position: relative;
-}
-/* line 28, ../sass/sassmatic.scss */
-.filter2:after, #button2:after {
-  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(40%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0.9)));
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
-  background-image: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
-  background-image: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
-  background-image: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.9) 100%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-}
-
-/* line 306, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .caption2:after {
   content: 'Washout';
 }
 
 /*Filter 3*/
-/* line 312, ../sass/style.scss */
-.filter3, #button3 {
-  -webkit-filter: saturate(1.3) brightness(1.1) contrast(1.1);
-  -moz-filter: saturate(1.3) brightness(1.1) contrast(1.1);
-  -ms-filter: saturate(1.3) brightness(1.1) contrast(1.1);
-  -o-filter: saturate(1.3) brightness(1.1) contrast(1.1);
-  filter: saturate(1.3) brightness(1.1) contrast(1.1);
-  position: relative;
-}
-
-/* line 316, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .caption3:after {
   content: 'Nikki';
 }
 
 /*Filter 4*/
-/* line 322, ../sass/style.scss */
-.filter4, #button4 {
-  -webkit-filter: sepia(40%) brightness(1.4) saturate(0.8);
-  -moz-filter: sepia(40%) brightness(1.4) saturate(0.8);
-  -ms-filter: sepia(40%) brightness(1.4) saturate(0.8);
-  -o-filter: sepia(40%) brightness(1.4) saturate(0.8);
-  filter: sepia(40%) brightness(1.4) saturate(0.8);
-  position: relative;
-}
-/* line 52, ../sass/sassmatic.scss */
-.filter4:after, #button4:after {
-  background: black;
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-}
-
-/* line 327, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 .caption4:after {
   content: 'Deadwood';
 }
 
 /*Filter 5*/
-/* line 332, ../sass/style.scss */
-.filter5, #button5 {
-  -webkit-filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
-  -moz-filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
-  -ms-filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
-  -o-filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
-  filter: brightness(1.2) contrast(0.8) saturate(2) sepia(0.1);
-  position: relative;
-}
-/* line 66, ../sass/sassmatic.scss */
-.filter5:after, #button5:after {
-  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0.5)));
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
-  background-image: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
-  background-image: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
-  background-image: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-}
-
-/* line 336, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 .caption5:after {
   content: 'Sanfran';
 }
 
 /*Filter 6*/
-/* line 341, ../sass/style.scss */
-.filter6, #button6 {
-  -webkit-filter: grayscale(90%) contrast(1.3);
-  -moz-filter: grayscale(90%) contrast(1.3);
-  -ms-filter: grayscale(90%) contrast(1.3);
-  -o-filter: grayscale(90%) contrast(1.3);
-  filter: grayscale(90%) contrast(1.3);
-  position: relative;
-}
-/* line 79, ../sass/sassmatic.scss */
-.filter6:after, #button6:after {
-  background-image: -webkit-gradient(radial, 50%, 0, 50%, 90, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(82%, rgba(0, 0, 0, 0.65)), color-stop(83%, rgba(0, 0, 0, 0.69)), color-stop(90%, #000000));
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
-  background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
-  background-image: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
-  background-image: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 82%, rgba(0, 0, 0, 0.69) 83%, #000000 90%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-  opacity: 0.7;
-}
-
-/* line 345, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .caption6:after {
   content: 'Noire';
 }
 
 /*Filter 7*/
-/* line 350, ../sass/style.scss */
-.filter7, #button7 {
-  -webkit-filter: brightness(1.4) contrast(1) saturate(1);
-  -moz-filter: brightness(1.4) contrast(1) saturate(1);
-  -ms-filter: brightness(1.4) contrast(1) saturate(1);
-  -o-filter: brightness(1.4) contrast(1) saturate(1);
-  filter: brightness(1.4) contrast(1) saturate(1);
-  position: relative;
-}
-/* line 93, ../sass/sassmatic.scss */
-.filter7:after, #button7:after {
-  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(125, 185, 232, 0)), color-stop(100%, #1e5799));
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  background-image: -moz-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  background-image: -o-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  background-image: radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-}
-
-/* line 354, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .caption7:after {
   content: 'Neptune';
 }
 
 /*Filter 8*/
-/* line 360, ../sass/style.scss */
-.filter8, #button8 {
-  -webkit-filter: contrast(1.3) saturate(1.2) brightness(140%);
-  -moz-filter: contrast(1.3) saturate(1.2) brightness(140%);
-  -ms-filter: contrast(1.3) saturate(1.2) brightness(140%);
-  -o-filter: contrast(1.3) saturate(1.2) brightness(140%);
-  filter: contrast(1.3) saturate(1.2) brightness(140%);
-  position: relative;
-}
-/* line 106, ../sass/sassmatic.scss */
-.filter8:after, #button8:after {
-  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(92%, rgba(0, 0, 0, 0.65)), color-stop(93%, rgba(0, 0, 0, 0.69)), color-stop(100%, #000000));
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 92%, rgba(0, 0, 0, 0.69) 93%, #000000 100%);
-  background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 92%, rgba(0, 0, 0, 0.69) 93%, #000000 100%);
-  background-image: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 92%, rgba(0, 0, 0, 0.69) 93%, #000000 100%);
-  background-image: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 92%, rgba(0, 0, 0, 0.69) 93%, #000000 100%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-  opacity: 0.9;
-}
-
-/* line 364, ../sass/style.scss */
+/* line 368, ../sass/style.scss */
 .caption8:after {
   content: 'Lomo';
 }
 
 /*Filter 9*/
-/* line 370, ../sass/style.scss */
-.filter9, #button9 {
-  -webkit-filter: sepia(10%) saturate(0.9) brightness(140%);
-  -moz-filter: sepia(10%) saturate(0.9) brightness(140%);
-  -ms-filter: sepia(10%) saturate(0.9) brightness(140%);
-  -o-filter: sepia(10%) saturate(0.9) brightness(140%);
-  filter: sepia(10%) saturate(0.9) brightness(140%);
-  position: relative;
-}
-/* line 121, ../sass/sassmatic.scss */
-.filter9:after, #button9:after {
-  background-color: rgba(236, 138, 0, 0.2);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-  opacity: 0.6;
-}
-
-/* line 374, ../sass/style.scss */
+/* line 378, ../sass/style.scss */
 .caption9:after {
   content: 'Warming';
 }
 
 /*Filter 10*/
-/* line 380, ../sass/style.scss */
-.filter10, #button10 {
-  -webkit-filter: sepia(10%) saturate(0.9) brightness(140%);
-  -moz-filter: sepia(10%) saturate(0.9) brightness(140%);
-  -ms-filter: sepia(10%) saturate(0.9) brightness(140%);
-  -o-filter: sepia(10%) saturate(0.9) brightness(140%);
-  filter: sepia(10%) saturate(0.9) brightness(140%);
-  position: relative;
-}
-/* line 136, ../sass/sassmatic.scss */
-.filter10:after, #button10:after {
-  background-color: rgba(0, 109, 255, 0.35);
-  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(125, 185, 232, 0)), color-stop(100%, #1e5799));
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  background-image: -moz-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  background-image: -o-radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  background-image: radial-gradient(center, ellipse cover, rgba(125, 185, 232, 0) 0%, #1e5799 100%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-}
-
-/* line 384, ../sass/style.scss */
+/* line 388, ../sass/style.scss */
 .caption10:after {
   content: 'Cooling';
 }
 
 /*Filter 11*/
-/* line 390, ../sass/style.scss */
-.filter11, #button11 {
-  -webkit-filter: sepia(15%) contrast(1.7) saturate(0.7);
-  -moz-filter: sepia(15%) contrast(1.7) saturate(0.7);
-  -ms-filter: sepia(15%) contrast(1.7) saturate(0.7);
-  -o-filter: sepia(15%) contrast(1.7) saturate(0.7);
-  filter: sepia(15%) contrast(1.7) saturate(0.7);
-  position: relative;
-}
-
-/* line 394, ../sass/style.scss */
+/* line 398, ../sass/style.scss */
 .caption11:after {
   content: 'Pro';
 }
 
 /*Filter 12*/
-/* line 400, ../sass/style.scss */
-.filter12, #button12 {
-  -webkit-filter: grayscale(90%) contrast(0.8) brightness(110%);
-  -moz-filter: grayscale(90%) contrast(0.8) brightness(110%);
-  -ms-filter: grayscale(90%) contrast(0.8) brightness(110%);
-  -o-filter: grayscale(90%) contrast(0.8) brightness(110%);
-  filter: grayscale(90%) contrast(0.8) brightness(110%);
-  position: relative;
-}
-/* line 159, ../sass/sassmatic.scss */
-.filter12:after, #button12:after {
-  background-image: -webkit-gradient(radial, 50%, 0, 50%, 100, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0.9)));
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
-  background-image: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
-  background-image: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
-  background-image: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-}
-
-/* line 404, ../sass/style.scss */
+/* line 408, ../sass/style.scss */
 .caption12:after {
   content: 'Casablanca';
 }
 
 /*Filter 13*/
-/* line 411, ../sass/style.scss */
-.filter13, #button13 {
-  -webkit-filter: brightness(90%) contrast(1.2);
-  -moz-filter: brightness(90%) contrast(1.2);
-  -ms-filter: brightness(90%) contrast(1.2);
-  -o-filter: brightness(90%) contrast(1.2);
-  filter: brightness(90%) contrast(1.2);
-  position: relative;
-}
-/* line 173, ../sass/sassmatic.scss */
-.filter13:after, #button13:after {
-  background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(244, 244, 244, 0.3)), color-stop(60%, rgba(244, 244, 244, 0.3)), color-stop(60%, rgba(244, 244, 244, 0.7)), color-stop(100%, #ffffff));
-  background-image: -webkit-linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
-  background-image: -moz-linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
-  background-image: -o-linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
-  background-image: linear-gradient(left bottom, rgba(244, 244, 244, 0.3) 0%, rgba(244, 244, 244, 0.3) 60%, rgba(244, 244, 244, 0.7) 60%, #ffffff 100%);
-  box-shadow: inset 0px 0px 10rem white;
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.4;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 4;
-  opacity: 0.6;
-}
-
-/* line 415, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 .caption13:after {
   content: 'Glassic';
 }
 
 /*Filter 14*/
-/* line 421, ../sass/style.scss */
+/* line 425, ../sass/style.scss */
 .filter14, #button14 {
   -webkit-filter: sepia(100%);
-  -moz-filter: sepia(100%);
-  -ms-filter: sepia(100%);
-  -o-filter: sepia(100%);
-  filter: sepia(100%);
   position: relative;
 }
-/* line 190, ../sass/sassmatic.scss */
+/* line 183, ../sass/_sassmatic.scss */
 .filter14:after, #button14:after {
   content: "";
   right: 0;
@@ -774,11 +723,11 @@ FILTERS
   left: 0;
   z-index: 4;
 }
-/* line 207, ../sass/sassmatic.scss */
+/* line 200, ../sass/_sassmatic.scss */
 .filter14:after, #button14:after {
   background-color: rgba(255, 180, 0, 0.5);
 }
-/* line 218, ../sass/sassmatic.scss */
+/* line 211, ../sass/_sassmatic.scss */
 .filter14:after, #button14:after {
   background-image: -webkit-gradient(radial, 50%, 0, 50%, 90, color-stop(70%, rgba(255, 255, 255, 0)), color-stop(90%, rgba(255, 255, 255, 0.9)));
   background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.9) 90%);
@@ -788,12 +737,12 @@ FILTERS
   box-shadow: inset 0 0 3rem white;
 }
 
-/* line 427, ../sass/style.scss */
+/* line 431, ../sass/style.scss */
 .caption14:after {
   content: 'Custom';
 }
 
-/* line 432, ../sass/style.scss */
+/* line 436, ../sass/style.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -803,7 +752,7 @@ FILTERS
   height: 0;
 }
 
-/* line 441, ../sass/style.scss */
+/* line 445, ../sass/style.scss */
 .clearfix {
   display: inline-block;
 }

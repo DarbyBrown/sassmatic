@@ -60,6 +60,7 @@
   </ul>
 
 <h3>Simple Usage</h3>
+<p>Preset Filters now ues Sass' @extend feature with %placeholders</p>
 <article>
   <pre class="pre1"><h4>.html</h4> 
 &lt;<span class="syn1">div</span>&gt;
@@ -72,12 +73,13 @@
 @import <span class="syn3">"sassmatic.scss"</span>;
 
 <span class="syn1">div</span> {
-  <span class="syn2">@include filter-sanfran</span>;
+  <span class="syn2">@extend %filter-sanfran</span>;
 }
   </pre>
 </article>
 
 <h3>Custom Filters</h3>
+<p>Below is the setup up for the "custom" filter in the demo at the top</p>
 <article>
     <pre class="pre3"><h4>.scss</h4> 
 @import <span class="syn3">"compass"</span>;
